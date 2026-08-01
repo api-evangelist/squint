@@ -1,7 +1,30 @@
 aid: squint
 name: Squint
-description: Squint is a company surfaced as a portfolio company of menlo-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Squint is a Manufacturing Intelligence platform that uses AI and augmented
+  reality to help industrial and frontline operations teams lower downtime and
+  improve quality at scale. Its mobile app captures and digitizes tribal
+  knowledge from video and real work, orchestrates workflows and work
+  assignments across employees and locations, provides AI-powered
+  troubleshooting and expert guidance, and delivers analytics on performance
+  across teams and sites. Founded by Devin Bhushan, Squint began in
+  manufacturing and serves automotive, food and beverage, oil and gas, heavy
+  industrials, equipment, consumer packaged goods, and energy customers,
+  expanding into healthcare and hospitality. Backed by Menlo Ventures. As of
+  this enrichment pass Squint exposes no public developer API; its documentation
+  and application are gated behind a Squint workspace login.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/650d89844a661d79c18d6d47/698e278a895cd8ac4b5a8425_(x2).png
 url: https://raw.githubusercontent.com/api-evangelist/squint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Manufacturing Intelligence
+- Industrial AI
+- Frontline Operations
+- Augmented Reality
+- Knowledge Management
+- Workflow Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/squint-domain-security.yml
 - type: Website
   url: https://squint.ai
+- type: Documentation
+  url: https://docs.squint.ai
+- type: Blog
+  url: https://www.squint.ai/blog
+- type: Login
+  url: https://app.squint.ai/login
+- type: PrivacyPolicy
+  url: https://www.squint.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.squint.ai/terms
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
