@@ -13,6 +13,17 @@ description: >-
   expanding into healthcare and hospitality. Backed by Menlo Ventures. As of
   this enrichment pass Squint exposes no public developer API; its documentation
   and application are gated behind a Squint workspace login.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
