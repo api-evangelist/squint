@@ -52,8 +52,8 @@ tags:
 - Industrial AI
 - Frontline Operations
 - Augmented Reality
-- Knowledge-Management
-- Workflow-Automation
+- Knowledge Management
+- Workflow Automation
 tags_raw:
 - Company
 - Manufacturing Intelligence
@@ -62,6 +62,8 @@ tags_raw:
 - Augmented Reality
 - Knowledge Management
 - Workflow Automation
+- Knowledge-Management
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
